@@ -1,0 +1,53 @@
+.title{
+    font-size: em(50);
+    font-family: gloss !important;
+    font-weight: 400;
+    color: #503d3d;
+    line-height: em(20);
+    &_m{
+        font-size: em(36);
+    }
+
+    &_mini{
+        font-size: em(30);
+        margin-left: wm(20);
+    }
+
+    &_big{
+        font-size: em(80);
+        line-height: em(20);
+        color: $white;
+    }
+
+}
+
+    
+
+@media screen and (max-width: 770px) {
+    .title_big{
+        font-size: 62px !important;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .popapwrapper .sect2__title{
+        margin-top: -11px !important;
+    }
+    .popapwrapper .sect2__title span{
+        font-size: 27px !important;
+    }
+}
+
+@media screen and (max-width: 500px){ 
+    .contentpopap{
+        .title{
+            font-size: 27px;
+        }
+    }
+    .form{
+        .title{
+            font-size: 27px;
+        } 
+    }
+}
+
